@@ -8,6 +8,8 @@ import BgCharging from '@/public/bg-charging.jpeg'
 import BgConnectivity from '@/public/bg-connectivity.jpeg'
 import BgSafety from '@/public/bg-safety.jpeg'
 import Lenis from "@studio-freight/lenis";
+import { CarLogo } from './Constant'
+import CarLogos from './Components/CarLogos/CarLogos'
 
 const page = () => {
   useEffect(() => {
@@ -19,7 +21,11 @@ const page = () => {
     requestAnimationFrame(raf);
 
   }, []);
-  return (
+
+  
+  
+
+    return (
     <div>
       <HeroSection />
       <Section
@@ -28,12 +34,13 @@ const page = () => {
         title='Elevate adventure in the luxury electric SUV of tomorrow'
         description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
       />
+        <CarLogos/>
       <Section
         image={BgInterior}
         tag='Interior'
         title='Interior space. superrior taste.'
         description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
-      />
+        />
       <Section
         image={BgCharging}
         tag='Charging'
