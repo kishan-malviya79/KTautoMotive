@@ -7,19 +7,194 @@ function CarLogos() {
     return (
         <div>
 
-            <div className="w-full   h-[100vh]  px-28  md:py-0 ">
-                <div className="flex flex-row ">
-                    <div className="flex items-center justify-between gap-20     ">
+            <div className="w-full bg-black   h-[100vh]  px-28  md:py-0 ">
+                <div className="flex justify-between w-full">
+
+                <div className="  flex flex-col gap-8 pt-20 ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
 
                         <Image
                             className='rounded-[50%]'
-                            src="/K&T.jpeg"
+                            src="/tata-logo.png"
                             alt="Logo"
-                            width={100}
+                            width={90}
                             height={10}
                         />
-                        <h1>Toyota</h1>
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
                         <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    </div>
+                <div className="  flex flex-col gap-8 pt-20 ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    </div>
+                <div className="  flex flex-col gap-8 pt-20 ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between gap-16 py-3 px-5  ">
+
+                        <Image
+                            className='rounded-[50%]'
+                            src="/tata-logo.png"
+                            alt="Logo"
+                            width={90}
+                            height={10}
+                        />
+                        <h1 className='font-serif text-black text-4xl '>Toyota</h1>
+                        <div className=""></div>
+                    </div>
                     </div>
 
                 </div>
