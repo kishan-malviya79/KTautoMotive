@@ -4,7 +4,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className=' absolute inset-x-0 top-0 flex justify-between items-center h-16 px-20 bg-gradient-to-b from-black to-black/0  '>
+    <nav className=' absolute inset-x-0 top-4 flex justify-between items-center h-16 px-20 bg-gradient-to-b from-black to-black/0  '>
        <div className=' w-60'>
        <Image
         className='rounded-[50%]'
