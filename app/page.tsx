@@ -8,8 +8,9 @@ import BgCharging from '@/public/bg-charging.jpeg'
 import BgConnectivity from '@/public/bg-connectivity.jpeg'
 import BgSafety from '@/public/bg-safety.jpeg'
 import Lenis from "@studio-freight/lenis";
-import { CarLogo } from './Constant'
+import { CarLogo, ClientsCard } from './Constant'
 import CarLogos from './Components/CarLogos/CarLogos'
+import Clients from './Components/Clients/ClientsCards'
 
 const page = () => {
   useEffect(() => {
@@ -33,7 +34,8 @@ const page = () => {
         tag='Overview'
         title='Elevate adventure in the luxury electric SUV of tomorrow'
         description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
-      />
+        />
+        
         <CarLogos/>
       <Section
         image={BgInterior}
@@ -47,6 +49,7 @@ const page = () => {
         title='Lond-distance in lightning speed.'
         description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
       />
+      <Clients/>
       <Section
         image={BgConnectivity}
         tag='Connectivity'
@@ -59,6 +62,7 @@ const page = () => {
         title='Designed for peace of mind'
         description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
       />
+
     </div>
   )
 }
