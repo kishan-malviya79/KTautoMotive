@@ -67,3 +67,19 @@ export const CarLogo = [
     },
   ]
   
+  export const  Sociallistwhite = [
+    {
+      id: 1,
+      src:"https://assets-global.website-files.com/65f7ff46f33ea969ed86f3af/65fa7dc387031d2d5f510ee7_Facebook.svg"
+    },
+    {
+      id: 2,
+      src:"https://assets-global.website-files.com/65f7ff46f33ea969ed86f3af/65fa7dc36126a738fe0519fa_Instagram.svg"
+  
+    },
+    {
+      id: 3,
+      src:"https://assets-global.website-files.com/65f7ff46f33ea969ed86f3af/65fa7dc8e9fd22fb37e6d278_Twitter.svg"
+    },
+  
+  ]

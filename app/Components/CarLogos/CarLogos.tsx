@@ -39,7 +39,7 @@ function CarLogos() {
                         <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Toyota</h1>
                         <div className=""></div>
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between mx-2 sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between mx-2 sm:gap-16  sm:py-3 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -51,7 +51,7 @@ function CarLogos() {
                         <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Mahindra</h1>
                         <div className=""></div>
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between mx-2 sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between mx-2 sm:gap-16  sm:py-3 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -63,7 +63,7 @@ function CarLogos() {
                         <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Suzuki</h1>
                         <div className=""></div>
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between mx-2 sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between mx-2 sm:gap-16  sm:py-3 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'

@@ -15,11 +15,11 @@ function HeroSection() {
       </div>
       <div className="flex flex-col items-center gap-24">
         <div className="flex flex-col items-center gap-8">
-          <h1 className=' text-9xl max-w-[15ch] text-center font-serif '> K&T AutoMotive</h1>
+          <h1 className=' text-[36px] sm:text-9xl max-w-[15ch] text-center font-serif '> K&T AutoMotive</h1>
           {/* <p>Redefining the future of SUVs</p>
           <button className=' bg-white text-black uppercase rounded-md py-2 px-6 '>Stay informed</button> */}
         </div>
-        <div className="flex justify-between w-3/5 max-w-[900px]">
+        <div className="flex justify-between w-full sm:w-3/5 max-w-[900px]">
           <HighlightItem title="" content="New Car" />
           <div className=' h-full w-[4px] bg-white' />
           <HighlightItem title="" content="Old Car" />
@@ -37,8 +37,8 @@ const HighlightItem: React.FC<{ title: string; content: string }> = ({ title, co
 
   return (
       <div className=' w-full flex flex-col items-center justify-center gap-4 '>
-        <span className=' uppercase text-sm'>{title}</span>
-        <p className=' text-4xl '>{content}</p>
+        <span className=' uppercase  text-sm'>{title}</span>
+        <p className=' text-[16px] sm:text-4xl '>{content}</p>
       </div>
   );
 };
