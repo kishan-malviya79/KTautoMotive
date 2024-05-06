@@ -58,13 +58,7 @@ export const CarLogo = [
       
   
     },
-    {
-      id: 3,
-      src: "https://assets-global.website-files.com/65f80867f6bba3c35905aa2c/65fa7b6bf9cf05856d84b93e_Team%20Image%2005.png",
-      name: "DIANNE RUSSELL",
-      title: "Architect ",
-  
-    },
+    
   ]
   
   export const  Sociallistwhite = [

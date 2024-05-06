@@ -8,21 +8,21 @@ import { useScroll, useTransform } from 'framer-motion'
 
 function CarLogos() {
     return (
-
+        
         <div className=" w- sm:w-full  bg-black  h-[100vh]  sm:px-28   md:py-0 "
-            style={{ 
-            backgroundImage: `url(${`bg-overview.jpeg`})`, // Replace BgOverview with your actual variable name for the background image
-            backgroundSize: 'cover', // Adjust as needed
-            backgroundPosition: 'center', // Adjust as needed
-        }}
+            style={{
+                backgroundImage: `url(${`bg-overview.jpeg`})`, // Replace BgOverview with your actual variable name for the background image
+                backgroundSize: 'cover', // Adjust as needed
+                backgroundPosition: 'center', // Adjust as needed
+            }}
         >
-            
-            
+
+
 
             <div className="flex flex-row   justify-between w-full">
 
-                <div className="  flex flex-col gap-8 pt-20 ">
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between sm:gap-16 mx-2 sm:py-3  sm:px-5  ">
+                <div className="  flex flex-col  gap-8 pt-20 ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl  sm:justify-start  justify-center sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px] '
@@ -31,10 +31,9 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif  text-black text-[20px] sm:text-4xl '>Tata</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif  text-black text-[12px] sm:text-4xl '>Tata</h1>
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start  justify-center  sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -43,10 +42,9 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Toyota</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black  '>Toyota</h1>
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between mx-2 sm:gap-16  sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -55,10 +53,9 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Mahindra</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black  '>Mahindra</h1>
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between mx-2 sm:gap-16  sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -67,10 +64,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Suzuki</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black  '>Suzuki</h1>
+                       
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between mx-2 sm:gap-16  sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -79,12 +76,12 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Honda</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black '>Honda</h1>
+                       
                     </div>
                 </div>
                 <div className="  flex flex-col gap-8 pt-20 ">
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16  px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -93,22 +90,22 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Volkswagen</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black '>Volkswagen</h1>
+                       
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16  px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
-                            className='rounded-[50%] sm:w[90] w-[45px]'
+                            className='rounded-[50%] px-1= items-start sm:w[90] w-[45px]'
                             src="/hyundai-logo.webp"
                             alt="Logo"
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Hyundai</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black '>Hyundai</h1>
+                       
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16  px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -117,10 +114,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Jeep</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black  '>Jeep</h1>
+                       
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16  px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -129,10 +126,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Force</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black  '>Force</h1>
+                       
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16  px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -141,12 +138,12 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Nissan</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black '>Nissan</h1>
+                       
                     </div>
                 </div>
                 <div className="  flex flex-col gap-8 pt-20 ">
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6  px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -155,10 +152,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Kia</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black  '>Kia</h1>
+                       
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -167,10 +164,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Skoda</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black  '>Skoda</h1>
+                       
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -179,10 +176,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>MG</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black  '>MG</h1>
+                       
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -191,10 +188,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Citroen</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black '>Citroen</h1>
+                       
                     </div>
-                    <div className="flex items-center bg-[#f5b754] rounded-2xl justify-between  sm:gap-16 mx-2 sm:py-3 sm:px-5  ">
+                    <div className="flex items-center bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -203,8 +200,8 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[20px] sm:text-4xl text-black text-4xl '>Renault</h1>
-                        <div className=""></div>
+                        <h1 className='font-serif text-[12px] sm:text-4xl text-black'>Renault</h1>
+                       
                     </div>
                 </div>
 
