@@ -23,33 +23,21 @@ const page = () => {
 
   }, []);
 
-  
-  
 
-    return (
+
+
+  return (
     <div>
       <HeroSection />
-      <Section
-        image={BgOverview}
-        tag='Overview'
-        title='Elevate adventure in the luxury electric SUV of tomorrow'
-        description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
-        />
-        
-        <CarLogos/>
-      <Section
-        image={BgInterior}
-        tag='Interior'
-        title='Interior space. superrior taste.'
-        description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
-        />
+      <CarLogos />
+
       <Section
         image={BgCharging}
         tag='Charging'
         title='Lond-distance in lightning speed.'
         description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
       />
-      <Clients/>
+      <Clients />
       <Section
         image={BgConnectivity}
         tag='Connectivity'

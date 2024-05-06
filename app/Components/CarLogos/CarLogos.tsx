@@ -9,8 +9,15 @@ import { useScroll, useTransform } from 'framer-motion'
 function CarLogos() {
     return (
 
-        <div className=" w- sm:w-full  bg-black  h-[100vh]  sm:px-28   md:py-0 ">
-
+        <div className=" w- sm:w-full  bg-black  h-[100vh]  sm:px-28   md:py-0 "
+            style={{ 
+            backgroundImage: `url(${`bg-overview.jpeg`})`, // Replace BgOverview with your actual variable name for the background image
+            backgroundSize: 'cover', // Adjust as needed
+            backgroundPosition: 'center', // Adjust as needed
+        }}
+        >
+            
+            
 
             <div className="flex flex-row   justify-between w-full">
 
