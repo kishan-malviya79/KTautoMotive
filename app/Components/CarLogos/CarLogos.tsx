@@ -41,7 +41,7 @@ function CarLogos() {
                         />
                         <h1 className='font-serif text-[12px] sm:text-4xl text-black  '>Toyota</h1>
                     </div>
-                    <div className="flex items-center border-[white] border-[2px] bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6 px-2 py-1 sm:py-45 sm:px-5  ">
+                    <div className="flex items-center border-[white] border-[2px] bg-[#f5b754] rounded-2xl sm:justify-start justify-center  sm:gap-16 mx-6  py-1 sm:py-45 sm:px-5  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
