@@ -41,7 +41,11 @@ function Clients() {
     return (
         <div
         className="w-full sm:items-center  flex sm:h-screen justify-center sm:flex-row flex-col md:py-0 gap-6"
-        
+        style={{ 
+            backgroundImage: `url(${`bg-Interior.jpeg`})`, // Replace BgOverview with your actual variable name for the background image
+            backgroundSize: 'cover', // Adjust as needed
+            backgroundPosition: 'center', // Adjust as needed
+        }}
         
     > {/* Adjust gap here */}
           {
