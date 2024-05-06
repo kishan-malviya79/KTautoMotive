@@ -153,7 +153,7 @@ function CarLogos() {
 
                     </div>
                     <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
-v
+
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
                             src="/skoda-logo.webp"
@@ -207,4 +207,4 @@ v
     )
 }
 
-export default CarLogos 
+export default CarLogos
