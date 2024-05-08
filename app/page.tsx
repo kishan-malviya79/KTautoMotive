@@ -31,14 +31,8 @@ const page = () => {
       <HeroSection />
       <CarLogos />
 
-      <Section
-        image={BgCharging}
-        tag='Charging'
-        title='Lond-distance in lightning speed.'
-        description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
-      />
       <Clients />
-      <Section
+      {/* <Section
         image={BgConnectivity}
         tag='Connectivity'
         title='Feel the world at your fingertips'
@@ -49,7 +43,7 @@ const page = () => {
         tag='Safety'
         title='Designed for peace of mind'
         description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
-      />
+      /> */}
 
     </div>
   )
