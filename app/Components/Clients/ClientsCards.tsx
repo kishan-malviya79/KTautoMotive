@@ -26,8 +26,8 @@ function ClientsCards({...v}: Ccard) {
                     <div className="flex justify-between ">
 
                         <div className="flex flex-col  ">
-                            <h1  className= " ml-4 text-white font-serif ">{v.name}</h1>
-                            <h2 className=" ml-4 text-white font-serif ">{v.title}</h2>
+                            <h1  className= " ml-4 text-white sm:text-black font-serif ">{v.name}</h1>
+                            <h2 className=" ml-4 text-white  sm:text-black font-serif ">{v.title}</h2>
                         </div>
                         <SocialLogo/>
                        
