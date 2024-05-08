@@ -14,9 +14,9 @@ interface Ccard{
 function ClientsCards({...v}: Ccard) {
     return (
             <div className="flex justify-between">
-                <div className=" flex flex-col gap-5">
+                <div className=" flex flex-col gap-5" >
 
-                    <div className=" w-[351px] h-[510px] sm:h-[517px] sm:w-[351px] border-4 relative " >
+                    <div className="  h-[517px] w-[351px] border-4 relative " >
                         <Image
                             layout='fill'
                             src={v.src}
