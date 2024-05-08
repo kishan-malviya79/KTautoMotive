@@ -29,7 +29,7 @@ function ClientsCards({...v}: Ccard) {
                             <h1  className="text-black font-serif ">{v.name}</h1>
                             <h2 className="text-black font-serif ">{v.title}</h2>
                         </div>
-                        <SocialLogo/>
+                        <SocialLogoLight/>
                        
                 </div>
             </div>
