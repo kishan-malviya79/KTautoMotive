@@ -189,7 +189,7 @@ function CarLogos() {
                         <h1 className='font-serif text-[18px] sm:text-4xl text-black '>Citroen</h1>
 
                     </div>
-                    <div className="ml-2    sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-3    sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
