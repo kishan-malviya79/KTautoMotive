@@ -16,7 +16,7 @@ function ClientsCards({...v}: Ccard) {
             <div className="flex justify-between">
                 <div className=" flex flex-col gap-5">
 
-                    <div className="h-[517px] w-[384px] border-8 relative " >
+                    <div className=" w-[375px] h-[510px] sm:h-[517px] sm:w-[384px] border-8 relative " >
                         <Image
                             layout='fill'
                             src={v.src}
@@ -26,8 +26,8 @@ function ClientsCards({...v}: Ccard) {
                     <div className="flex justify-between ">
 
                         <div className="flex flex-col gap-1">
-                            <h1  className="text-black">{v.name}</h1>
-                            <h2 className="text-black">{v.title}</h2>
+                            <h1  className="text-black font-serif ">{v.name}</h1>
+                            <h2 className="text-black font-serif ">{v.title}</h2>
                         </div>
                         <SocialLogoLight/>
                        
@@ -42,7 +42,7 @@ function Clients() {
         <div
         className="w-full sm:items-center  flex sm:h-screen justify-center sm:flex-row flex-col md:py-0 gap-x-24"
         style={{ 
-            backgroundImage: `url(${`bg-Interior.jpeg`})`, // Replace BgOverview with your actual variable name for the background image
+            backgroundImage: `url(${`bg-Safety.jpeg`})`, // Replace BgOverview with your actual variable name for the background image
             backgroundSize: 'cover', // Adjust as needed
             backgroundPosition: 'center', // Adjust as needed
         }}

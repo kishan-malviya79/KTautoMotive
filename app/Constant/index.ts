@@ -45,14 +45,14 @@ export const CarLogo = [
   export const ClientsCard = [
     {
       id: 1,
-      src: "https://assets-global.website-files.com/65f80867f6bba3c35905aa2c/65fa7b2d65e6c276c9955eef_Team%20Image%2001.png",
+      src: "/Tushar.jpg",
       name: "Tushar Paliwal ",
-      title: "MD Owner",
+      title: "Owner(MD)",
   
     },
     {
       id: 2,
-      src: "https://assets-global.website-files.com/65f80867f6bba3c35905aa2c/65fa7b85eb81309a691fc635_Team%20Image%2004.png",
+      src: "/Kalpesh.jpg",
       name: "Kalpesh Paliwal",
       title: "Owner",
       
