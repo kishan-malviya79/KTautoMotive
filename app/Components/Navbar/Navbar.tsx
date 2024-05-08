@@ -7,7 +7,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className=' absolute inset-x-0 top-4 flex justify-between items-center h-16 px-4 sm:px-20   '>
+    <nav className=' absolute inset-x-0 top-10 flex justify-between items-center h-16 px-4 sm:px-20   '>
        <div className=' w-16 sm:w-60'>
        <Image
         className='rounded-[50%] '
