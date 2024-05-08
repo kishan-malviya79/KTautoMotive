@@ -16,7 +16,7 @@ function ClientsCards({...v}: Ccard) {
             <div className="flex justify-between">
                 <div className=" flex flex-col gap-5" >
 
-                    <div className="  h-[517px] w-[351px] border-4 relative " >
+                    <div className="  h-[517px] w-[365px] border-4 relative " >
                         <Image
                             layout='fill'
                             src={v.src}
@@ -38,6 +38,7 @@ function ClientsCards({...v}: Ccard) {
 }
 
 function Clients() {
+
     return (
         <div
         className="w-full sm:items-center  flex sm:h-screen justify-center sm:flex-row flex-col md:py-0 gap-x-24"
