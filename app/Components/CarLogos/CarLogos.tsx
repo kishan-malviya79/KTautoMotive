@@ -17,7 +17,7 @@ function CarLogos() {
             }}
         >
             <div className=" grid  sm:left-28 sm:relative grid-rows sm:grid-rows-0 grid-cols-2 sm:grid-cols-3  gap-4 sm:gap-8     ">
-
+                
                 <div className="  grid grid-rows-5 grid-flow-col gap-4 sm:gap-10  ">
                     <div className=" ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] py-2 rounded-2xl  ">
 

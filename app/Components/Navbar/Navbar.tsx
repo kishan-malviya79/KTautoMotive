@@ -17,7 +17,7 @@ function Navbar() {
           height={10}
         />
       </div>
-      <SocialLogoLight />
+      <SocialLogo />
       {/* <div className='flex gap-6'> 
             <Link href='#'>Air</Link>
             <Link href='#'>Gravity</Link>
