@@ -29,7 +29,7 @@ function Clients() {
                     <h1 className=' text-[18px] leading-4 text-[#333333] '>JENNY WILSON</h1>
                     <h2 className=' text-[#686767]'>McDonald's</h2>
                 </div>
-            </div>
+            </div>  
         </div>
     )
 }
