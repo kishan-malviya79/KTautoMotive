@@ -86,7 +86,6 @@ export const Sociallistwhite = [
   {
     id: 3,
     src: "https://assets-global.website-files.com/65f7ff46f33ea969ed86f3af/65fa7dc8e9fd22fb37e6d278_Twitter.svg",
-
     link: "https://www.instagram.com/kt_automotive024_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
 
   },
