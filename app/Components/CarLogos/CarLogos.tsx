@@ -4,20 +4,20 @@ import BgOverview from '@/public/bg-overview.jpeg'
 import React, { useRef } from 'react'
 import { title } from 'process'
 import { useScroll, useTransform } from 'framer-motion'
-
+import { Meteors } from "../ui/meteors";
 
 function CarLogos() {
     return (
 
-        <div className=" relative content-center sm:w-full  bg-black  h-[100vh]  sm:px-28   md:py-0 "
-            style={{
-                backgroundImage: `url(${`bg-overview.jpeg`})`, // Replace BgOverview with your actual variable name for the background image
-                backgroundSize: 'cover', // Adjust as needed
-                backgroundPosition: 'center', // Adjust as needed
-            }}
+        <div className=" relative content-center sm:w-full  bg-[black] h-[100vh]  sm:px-28   md:py-0 "
+            // style={{
+            //     backgroundImage: `url(${`bg-overview.jpeg`})`, // Replace BgOverview with your actual variable name for the background image
+            //     backgroundSize: 'cover', // Adjust as needed
+            //     backgroundPosition: 'center', // Adjust as needed
+            // }}
         >
             <div className=" grid  sm:left-28 sm:relative grid-rows sm:grid-rows-0 grid-cols-2 sm:grid-cols-3  gap-4 sm:gap-8     ">
-                
+
                 <div className="  grid grid-rows-5 grid-flow-col gap-4 sm:gap-10  ">
                     <div className=" ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
@@ -199,7 +199,7 @@ function CarLogos() {
                             height={10}
                         />
                         <h1 className='font-serif text-[18px] sm:text-4xl text-white '>Renault</h1>
-
+                        <Meteors number={60} />
                     </div>
                 </div>
 
