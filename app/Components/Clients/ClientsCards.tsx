@@ -16,11 +16,12 @@ function ClientsCards({ ...v }: Ccard) {
         <div className="flex justify-between ">
             <div className=" flex flex-col gap-2    " >
 
-                <div className="  h-[517px] w-[362px] border-4 relative " >
+                <div className="  h-[517px] w-[362px] border-4 relative  " >
                     <Image
                         layout='fill'
                         src={v.src}
                         alt="img1"
+                        style={{objectFit:"cover"}}
                     />
                 </div>
                 <div className="flex justify-around items-center bg-[grey] rounded-[12px] ">
