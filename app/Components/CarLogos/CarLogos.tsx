@@ -19,7 +19,7 @@ function CarLogos() {
             <div className=" grid  sm:left-28 sm:relative grid-rows sm:grid-rows-0 grid-cols-2 sm:grid-cols-3  gap-4 sm:gap-8     ">
                 
                 <div className="  grid grid-rows-5 grid-flow-col gap-4 sm:gap-10  ">
-                    <div className=" ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] py-2 rounded-2xl  ">
+                    <div className=" ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px] '
@@ -28,31 +28,31 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif  text-black text-[18px] sm:text-4xl '>Tata</h1>
+                        <h1 className='font-serif  text-white  text-[18px] sm:text-4xl '>Tata</h1>
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
-                            src="/toyota-logo.png"
+                            src="/tota.jpeg"
                             alt="Logo"
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black  '>Toyota</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white   '>Toyota</h1>
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
-                            src="/mahindra-logo.png"
+                            src="/mahindra2-logo.webp"
                             alt="Logo"
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black  '>Mahindra</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white   '>Mahindra</h1>
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -61,10 +61,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black  '>Suzuki</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white   '>Suzuki</h1>
 
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -73,24 +73,24 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black '>Honda</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white  '>Honda</h1>
 
                     </div>
                 </div>
                 <div className="  grid grid-rows-5 grid-flow-col gap-4 sm:gap-10   ">
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
-                            className='rounded-[50%] sm:w[90] w-[45px]'
-                            src="/volkswagen-logo.webp"
+                            className='rounded-[50%] sm:w[90] w-[45px]  '
+                            src="/wol1.jpg"
                             alt="Logo"
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black '>Volkswagen</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white  '>Volkswagen</h1>
 
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] px-1= items-start sm:w[90] w-[45px]'
@@ -99,22 +99,22 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black '>Hyundai</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white  '>Hyundai</h1>
 
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
-                            className='rounded-[50%] sm:w[90] w-[45px]'
-                            src="/jeep-logo.png"
+                            className='rounded-[50%] sm:w[90] w-[45px] border-[white] border-[2px]'
+                            src="/jeep1.png"
                             alt="Logo"
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black  '>Jeep</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white   '>Jeep</h1>
 
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -123,37 +123,37 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black  '>Force</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white   '>Force</h1>
 
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
-                            src="/nissan-logo.png"
+                            src="/nissan11.jpg"
                             alt="Logo"
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black '>Nissan</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white  '>Nissan</h1>
 
                     </div>
                 </div>
                 <div className="  grid grid-rows-3 sm:grid-rows-5 grid-flow-col gap-4 sm:gap-10   ">
 
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] py-2 rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
-                            src="/kia-logo.webp"
+                            src="/kia1.png"
                             alt="Logo"
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black  '>Kia</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white  '>Kia</h1>
 
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -162,10 +162,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl  text-black  '>Skoda</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl  text-white   '>Skoda</h1>
 
                     </div>
-                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -174,10 +174,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black  '>MG</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white   '>MG</h1>
 
                     </div>
-                    <div className="ml-3 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-3 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -186,10 +186,10 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black '>Citroen</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white  '>Citroen</h1>
 
                     </div>
-                    <div className="ml-3    sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[#f5b754] rounded-2xl  ">
+                    <div className="ml-3    sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] rounded-2xl  ">
 
                         <Image
                             className='rounded-[50%] sm:w[90] w-[45px]'
@@ -198,7 +198,7 @@ function CarLogos() {
                             width={90}
                             height={10}
                         />
-                        <h1 className='font-serif text-[18px] sm:text-4xl text-black'>Renault</h1>
+                        <h1 className='font-serif text-[18px] sm:text-4xl text-white '>Renault</h1>
 
                     </div>
                 </div>
