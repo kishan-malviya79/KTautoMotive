@@ -30,7 +30,8 @@ export const Sociallist = [
   {
     id: 1,
     src: "https://assets-global.website-files.com/65f7ff46f33ea969ed86f3af/65fa7dc605862b6a72b8273c_Social%20Icon%20(Facebook).svg",
-       link: "https://www.instagram.com/kt_automotive024_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+    link: "https://www.facebook.com/profile.php?id=61559076326638&mibextid=ZbWKwL" 
+       
   },
   {
     id: 2,
@@ -70,7 +71,7 @@ export const Sociallistwhite = [
   {
     id: 1,
     src: "https://assets-global.website-files.com/65f7ff46f33ea969ed86f3af/65fa7dc387031d2d5f510ee7_Facebook.svg",
-    link: "https://www.instagram.com/kt_automotive024_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+    link: "https://www.facebook.com/profile.php?id=61559076326638&mibextid=ZbWKwL" 
 
     
   },

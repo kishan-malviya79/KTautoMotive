@@ -21,7 +21,7 @@ function ClientsCards({ ...v }: Ccard) {
                         layout='fill'
                         src={v.src}
                         alt="img1"
-                        style={{objectFit:"cover"}}
+                        
                     />
                 </div>
                 <div className="flex justify-around items-center bg-[grey] rounded-[12px] ">
