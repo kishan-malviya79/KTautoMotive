@@ -11,6 +11,8 @@ import Lenis from "@studio-freight/lenis";
 import { CarLogo, ClientsCard } from './Constant'
 import CarLogos from './Components/CarLogos/CarLogos'
 import Clients from './Components/Clients/ClientsCards'
+import { BackgroundGradient } from './Components/ui/Background-gradient'
+import { BackgroundGradientDemo } from './Components/ui/Sho'
 
 const page = () => {
   useEffect(() => {
@@ -30,9 +32,9 @@ const page = () => {
     <div>
       <HeroSection />
       <CarLogos />
-
       <Clients />
-      {/* <Section
+      <BackgroundGradientDemo/>
+        {/* <Section
         image={BgConnectivity}
         tag='Connectivity'
         title='Feel the world at your fingertips'
@@ -44,7 +46,7 @@ const page = () => {
         title='Designed for peace of mind'
         description='More space. Elevate adventure in the luxury electric SUV of tomorrowElevate adventure in the luxury electric SUV of tomorrow '
       /> */}
-
+  
     </div>
   )
 }
