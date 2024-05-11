@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export function BackgroundGradientDemo() {
   return (
-    <div className="w-full sm:items-center  flex sm:h-screen justify-center sm:flex-row flex-col md:py-0 gap-x-24"
+    <div className="w-full sm:items-center  flex sm:h-screen justify-center sm:flex-row flex-col py-4  md:py-0 gap-4 gap-x-24"
     style={{
       backgroundImage: `url(${`bg-charging.jpeg`})`, // Replace BgOverview with your actual variable name for the background image
       backgroundSize: 'cover', // Adjust as needed
@@ -36,7 +36,7 @@ export function BackgroundGradientDemo() {
         </button>
       </BackgroundGradient>
       <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
-      <div className="  h-[317px] overflow-hidden  rounded-[16px]   " >
+      <div className="  h-[310px] overflow-hidden  rounded-[16px]   " >
 
         <Image 
           src={`/Kalpesh.jpg`}

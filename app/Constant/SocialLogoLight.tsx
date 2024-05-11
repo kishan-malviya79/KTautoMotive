@@ -18,8 +18,8 @@ function SlogoL({ id, src, link }: SlogoL) {
   return (
     <div className="mx-1" onClick={handleClick}>
       <Image
-        width={25}
-        height={25}
+        width={35}
+        height={35}
         src={src}
         alt={`img${id}`} // Use id to generate a unique alt text
       />

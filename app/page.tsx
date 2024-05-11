@@ -32,7 +32,7 @@ const page = () => {
     <div>
       <HeroSection />
       <CarLogos />
-      <Clients />
+      {/* <Clients /> */}
       <BackgroundGradientDemo/>
         {/* <Section
         image={BgConnectivity}
