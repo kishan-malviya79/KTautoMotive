@@ -30,9 +30,9 @@ export function BackgroundGradientDemo() {
         </p>
         <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold gap-2 dark:bg-zinc-800">
           <span>CALL </span>
-          <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
-          +91-8209273105
-          </span>
+         
+          <a href="tel:+6350301957 " className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">8209273105</a>
+
         </button>
       </BackgroundGradient>
       <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
@@ -49,17 +49,16 @@ export function BackgroundGradientDemo() {
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
         Kalpesh Paliwal
         </p>
-
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
          Owner
         </p>
         <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold gap-2  dark:bg-zinc-800">
           <span>CALL </span>
-          <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
-          +91-8209273105
-          </span>
+          <a href="tel:+6350301957 " className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">6350301957</a>
+
         </button>
       </BackgroundGradient>
     </div>
   );
 }
+
