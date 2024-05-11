@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import { Sociallist, Sociallistwhite } from './index';
 import Image from 'next/image';
