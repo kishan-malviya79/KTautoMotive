@@ -28,10 +28,10 @@ export function BackgroundGradientDemo() {
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
          Owner
         </p>
-        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold gap-2 dark:bg-zinc-800">
+        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold gap-2 border-2 dark:bg-zinc-800">
           <span>CALL </span>
          
-          <a href="tel:+6350301957 " className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">8209273105</a>
+          <a href="tel:8209273105 " className="bg-zinc-700 rounded-full text-[0.7rem] px-2 py-0 text-white">8209273105</a>
 
         </button>
       </BackgroundGradient>
@@ -52,9 +52,9 @@ export function BackgroundGradientDemo() {
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
          Owner
         </p>
-        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold gap-2  dark:bg-zinc-800">
+        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold gap-2 border-2 dark:bg-zinc-800">
           <span>CALL </span>
-          <a href="tel:+6350301957 " className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">6350301957</a>
+          <a href="tel:6350301957 " className="bg-zinc-700 rounded-full text-[0.7rem] px-2 py-0 text-white">6350301957</a>
 
         </button>
       </BackgroundGradient>
