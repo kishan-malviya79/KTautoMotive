@@ -144,7 +144,7 @@ function CarLogos() {
                     <div className="ml-2 sm:ml-0 w-40 sm:w-80 flex items-center justify-around border-[white] border-[2px] bg-[black] py-2 rounded-2xl  ">
 
                         <Image
-                            className='rounded-[50%] sm:w[90] w-[45px]'
+                            className='rounded-[50%] sm:w[90] w-[45px] border-[white] border-[2px]'
                             src="/kia1.png"
                             alt="Logo"
                             width={90}
