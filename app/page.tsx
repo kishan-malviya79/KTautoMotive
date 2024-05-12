@@ -12,7 +12,7 @@ import { CarLogo, ClientsCard } from './Constant'
 import CarLogos from './Components/CarLogos/CarLogos'
 import Clients from './Components/Clients/ClientsCards'
 import { BackgroundGradient } from './Components/ui/Background-gradient'
-import { BackgroundGradientDemo } from './Components/ui/Sho'
+import { BackgroundGradientDemo } from './Components/ui/ClientsCard'
 
 const page = () => {
   useEffect(() => {
