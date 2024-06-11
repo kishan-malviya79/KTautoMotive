@@ -21,7 +21,8 @@ function SlogoL({ id, src, link }: SlogoL) {
         width={35}
         height={35}
         src={src}
-        alt={`img${id}`} // Use id to generate a unique alt text
+        alt={`img${id}`} 
+        className=' md:w-[70px] md:h-[50px] lg:w-[40px] lg:h-[40px]'// Use id to generate a unique alt text
       />
     </div>
   );
@@ -29,7 +30,7 @@ function SlogoL({ id, src, link }: SlogoL) {
 
 function SocialLogoLight() {
   return (
-    <div className="flex flex-row gap-3 justify-end">
+    <div className="flex flex-row  gap-3 justify-end">
       {Sociallistwhite.map((v) => (
         <SlogoL
           key={v.id}

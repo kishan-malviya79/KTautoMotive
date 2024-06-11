@@ -753,6 +753,16 @@ electron-to-chromium@^1.4.668:
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.694.tgz"
   integrity sha512-kM3SwvGTYpBFJSc8jm4IYVMIOzDmAGd/Ry96O9elRiM6iEwHKNKhtXyFGzpfMMIGZD84W4/hyaULlMmNVvLQlQ==
 
+embla-carousel-autoplay@^8.0.4:
+  version "8.0.4"
+  resolved "https://registry.npmjs.org/embla-carousel-autoplay/-/embla-carousel-autoplay-8.0.4.tgz"
+  integrity sha512-Ilmgn+d09o2M23yvl4cYwfO8VnZi7YXQl9UGYIflLGhtFaZW9PKU67TaW8teRjaDhS3I+uz3osBFDO407YPjfQ==
+
+embla-carousel@8.0.4:
+  version "8.0.4"
+  resolved "https://registry.npmjs.org/embla-carousel/-/embla-carousel-8.0.4.tgz"
+  integrity sha512-INndmilrV9KY4Wnb4F2tI55DuQnFjf3GPOaPDT2LGYiKhIWVNUhv1nz/RI7CZ6WoIZ8MYHP4t6Qm/cqpcGHknA==
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"

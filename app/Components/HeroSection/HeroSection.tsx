@@ -19,7 +19,7 @@ function HeroSection() {
           {/* <p>Redefining the future of SUVs</p>
           <button className=' bg-white text-black uppercase rounded-md py-2 px-6 '>Stay informed</button> */}
         </div>
-        <div className="flex justify-between w-full sm:w-3/5 max-w-[900px]">
+        <div className="flex justify-between w-full lg:w-3/5 max-w-[900px]">
           <HighlightItem title="" content="New Car" />
           <div className=' h-full w-[4px] bg-white' />
           <HighlightItem title="" content="Old Car" />
